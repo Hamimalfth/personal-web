@@ -161,13 +161,6 @@ main .content .content-image img {
   width: 400px;
   height: 500px;
 }
-@media (min-width: 768px) {
-
-main .content .content-image img:hover{
-  margin-top: -100px;
-  transition: 1s;
-}
-}
 main aside {
   position: fixed;
   inset-block: 0;
@@ -239,6 +232,12 @@ main aside .social-media li a:hover {
   main .content .content-image {
     order: -1;
   }
- 
+  main .content .content-image img:hover{
+    margin-top: -100px;
+    transition: 1s;
+  }
+  header.web{
+    color:#0C2D57 ;
+  }
 }
 
