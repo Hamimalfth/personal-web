@@ -80,6 +80,7 @@ header.web p{
     color : #416D19;
   }
  }
+
 header.navbar-container .nav-list li a {
   text-decoration: none;
   font-size: 1.05rem;
@@ -170,6 +171,7 @@ main .content .content-image img {
   width: 400px;
   height: 500px;
 }
+
 main aside {
   position: fixed;
   inset-block: 0;
@@ -241,10 +243,6 @@ main aside .social-media li a:hover {
   main .content .content-image {
     order: -1;
   }
-  main .content .content-image img:hover{
-    margin-top: -100px;
-    transition: 1s;
-  }
-  
+
 }
 
